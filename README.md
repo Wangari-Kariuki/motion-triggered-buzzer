@@ -4,6 +4,7 @@ This is a quick guide for creating a motion-triggered alarm system using the ESP
 - Alarm systems in commercial buildings
 - Parking assistance systems
 - Intruder or security alarms
+
 These systems trigger alerts, cameras, or notifications based on motion or distance changes. 
 
 Hardware Component list:
@@ -21,7 +22,7 @@ Hardware Component list:
   </tr>
 </table>
 
-  # Component knowledge
+## Component knowledge
 
 **How the buzzer works and the difference between active and passive buzzer.**
 
