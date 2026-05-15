@@ -7,37 +7,31 @@ This is a quick guide for creating a motion-triggered alarm system using the ESP
 These systems trigger alerts, cameras, or notifications based on motion or distance changes. 
 
 Hardware Component list:
+ESP32 WROOM
 
-
-    *ESP32-S3 WROOM*
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/esp32.PNG" alt = "esp32" width="300" height="200">
 
-    *GPIO Extension board*
+GPIO Extension board
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/GPIO_extentions_board.PNG" alt = "GPIO board" width="300" height="200">
 
+Active buzzer
 
-    *Active buzzer*
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/buzzer.PNG" alt = "buzzer" width="300" height="200">
 
+Ultrasonic ranging module
 
-    *Ultrasonic ranging module*
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/ranging_module.PNG" alt = "ranging module" width="300" height="200">
 
+Jumper wires x6
 
-    *Jumper wires x6*
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/wires.PNG" alt = "wires" width="300" height="200">
 
+USB Cable
 
-    *USB Cable*
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/Cable.PNG" alt = "usb cable" width="300" height="200">
 
-
-
-
-
-        **Component knowledge**
-
-
+# Component knowledge
 
 **How the buzzer works and the difference between active and passive buzzer.**
 
@@ -70,26 +64,34 @@ Upload the ultrasonic_ranging.ino sketch from the folder to the Arduino IDE.
 
 Define max distance
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.png" width="400" height="300">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.PNG" width="640" height="200">
 
 
 
-Initialize  new distance, set distance  ddistance, and track 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.png" width="400" height="300">
+Initialize  new distance, set distance  ddistance, and track
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.PNG" width="640" height="300">
 
 
 Set up the PIN_BUZZER to output mode 
 Change the serial port to begin at port 115200
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.PNG" width="640" height="300">
 
 
 Create a condition to determine the distance threshold as (SET_DISTANCE)
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.PNG" width="640" height="300">
 
 
 Add trigger conditions to set the buzzer on or off depending on the variation between new distance and set distance.
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.PNG" width="640" height="400">
 
 
 
 Check the code and execute it; the buzzer beeps when an object passes in front of the sensor.
+
+<video width="400" controls>
+  <source src="https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/IMG_6610.mp4" type="video/mp4">
+</video>
