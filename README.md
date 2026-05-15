@@ -44,7 +44,10 @@ Since the speed of sound in air is constant, we can calculate the distance betwe
 
 Link to raw source code file <a href = "https://github.com/Wangari-Kariuki/motion-triggered-buzzer/blob/main/Final_projectMovementAlarm.ino">github Link</a>>
 
-**Circuit**
+
+**Sketch and Code**
+
+*Circuit*
 
 The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
 
@@ -52,35 +55,35 @@ The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/circuit.png" width="600">
 
 
-**Sketch and Code**
-
 Download and extract content of FNK0034;  Freenove_RFID_Starter_Kit_v2.0 folder provided in <a href = "https://docs.freenove.com/en/latest/about-freenove/tutorial.html"> this freenove tutorial page</a>
 
 Upload the ultrasonic_ranging.ino sketch from the folder to the Arduino IDE.
 
-Define max distance
+Make the following changes to the code to create a trigger for the buzzer:
+
+1. Define max distance
 
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.PNG" width="600">
 
 
 
-Initialize  new distance, set distance  ddistance, and track
+2. Initialize  new distance, set distance  ddistance, and track
 
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.PNG" width="600">
 
 
-Set up the PIN_BUZZER to output mode 
+3. Set up the PIN_BUZZER to output mode 
 Change the serial port to begin at port 115200
 
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.PNG" width="600">
 
 
-Create a condition to determine the distance threshold as (SET_DISTANCE)
+4. Create a condition to determine the distance threshold as (SET_DISTANCE)
 
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.PNG" width="600">
 
 
-Add trigger conditions to set the buzzer on or off depending on the variation between new distance and set distance.
+5. Add trigger conditions to set the buzzer on or off depending on the variation between new distance and set distance.
 
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.PNG" width="600">
 
