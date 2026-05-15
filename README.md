@@ -41,7 +41,7 @@ The sensor emits an ultrasonic pulse and then waits for the echo. It measures th
 Since the speed of sound in air is constant, we can calculate the distance between the module and the obstacles using the formula: s = vt/2, where 's' represents distance, 'v' is the speed of sound, and 't' is the recorded time.
 <a href = "https://docs.freenove.com/projects/fnk0034/en/latest/fnk0034/codes/tutorial/24_Ultrasonic_Ranging.html#chapter-ultrasonic-ranging">More details in this tutorial </a>
 
-Link to raw source code file <a href = "https://github.com/Wangari-Kariuki/motion-triggered-buzzer/blob/main/Final_projectMovementAlarm.ino">github Link</a>>
+Link to raw source code file <a href = "https://github.com/Wangari-Kariuki/motion-triggered-buzzer/blob/main/Final_projectMovementAlarm.ino">github Link</a>
 
 **Circuit**
 The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
