@@ -21,7 +21,7 @@ Hardware Component list:
   </tr>
 </table>
 
-# Component knowledge
+  # Component knowledge
 
 **How the buzzer works and the difference between active and passive buzzer.**
 
