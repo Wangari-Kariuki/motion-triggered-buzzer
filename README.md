@@ -64,29 +64,29 @@ Upload the ultrasonic_ranging.ino sketch from the folder to the Arduino IDE.
 
 Define max distance
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.PNG" width="640" height="200">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.PNG" width="700" height="50">
 
 
 
 Initialize  new distance, set distance  ddistance, and track
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.PNG" width="640" height="300">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.PNG" width="690" height="100">
 
 
 Set up the PIN_BUZZER to output mode 
 Change the serial port to begin at port 115200
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.PNG" width="640" height="300">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.PNG" width="680" height="200">
 
 
 Create a condition to determine the distance threshold as (SET_DISTANCE)
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.PNG" width="640" height="300">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.PNG" width="680" height="150">
 
 
 Add trigger conditions to set the buzzer on or off depending on the variation between new distance and set distance.
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.PNG" width="640" height="400">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.PNG" width="680" height="400">
 
 
 
