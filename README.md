@@ -86,7 +86,7 @@ Add trigger conditions to set the buzzer on or off depending on the variation be
 
 Check the code and execute it; the buzzer beeps when an object passes in front of the sensor.
 
-# Video demo of the working device
+### Video demo of the working device
 <video width="400" controls>
   <source src="https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/IMG_6610.mp4" type="video/mp4">
 </video>
