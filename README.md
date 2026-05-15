@@ -4,6 +4,7 @@ This is a quick guide for creating a motion-triggered alarm system using the ESP
 - Alarm systems in commercial buildings
 - Parking assistance systems
 - Intruder or security alarms
+
 These systems trigger alerts, cameras, or notifications based on motion or distance changes. 
 
 Hardware Component list:
@@ -21,7 +22,7 @@ Hardware Component list:
   </tr>
 </table>
 
-  # Component knowledge
+## Component knowledge
 
 **How the buzzer works and the difference between active and passive buzzer.**
 
@@ -43,8 +44,6 @@ Since the speed of sound in air is constant, we can calculate the distance betwe
 
 Link to raw source code file <a href = "https://github.com/Wangari-Kariuki/motion-triggered-buzzer/blob/main/Final_projectMovementAlarm.ino">github Link</a>>
 
-**Sketch and Code**
-
 **Circuit**
 
 The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
@@ -53,6 +52,7 @@ The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/circuit.png" width="600">
 
 
+**Sketch and Code**
 
 Download and extract content of FNK0034;  Freenove_RFID_Starter_Kit_v2.0 folder provided in <a href = "https://docs.freenove.com/en/latest/about-freenove/tutorial.html"> this freenove tutorial page</a>
 
@@ -88,6 +88,7 @@ Add trigger conditions to set the buzzer on or off depending on the variation be
 
 Check the code and execute it; the buzzer beeps when an object passes in front of the sensor.
 
+### Video demo of the working device
 <video width="400" controls>
   <source src="https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/IMG_6610.mp4" type="video/mp4">
 </video>
