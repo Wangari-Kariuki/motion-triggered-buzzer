@@ -43,12 +43,16 @@ Since the speed of sound in air is constant, we can calculate the distance betwe
 
 Link to raw source code file <a href = "https://github.com/Wangari-Kariuki/motion-triggered-buzzer/blob/main/Final_projectMovementAlarm.ino">github Link</a>>
 
+**Sketch and Code**
+
 **Circuit**
+
 The connection of the ranging module(HC-SR04)  and the buzzer is shown below.
 
-{Schematic diagram}/  hardware connection
 
-**Sketch and Code**
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/circuit.png" width="600">
+
+
 
 Download and extract content of FNK0034;  Freenove_RFID_Starter_Kit_v2.0 folder provided in <a href = "https://docs.freenove.com/en/latest/about-freenove/tutorial.html"> this freenove tutorial page</a>
 
