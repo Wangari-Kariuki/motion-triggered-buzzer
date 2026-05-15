@@ -7,22 +7,28 @@ This is a quick guide for creating a motion-triggered alarm system using the ESP
 These systems trigger alerts, cameras, or notifications based on motion or distance changes. 
 
 Hardware Component list:
-| ESP32 WROOM
+ESP32 WROOM
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/esp32.PNG" alt = "esp32" width="300" height="200">
 
-| GPIO Extension board
+GPIO Extension board
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/GPIO_extentions_board.PNG" alt = "GPIO board" width="300" height="200">
 
-| Active buzzer
+Active buzzer
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/buzzer.PNG" alt = "buzzer" width="300" height="200">
 
-| Ultrasonic ranging module*
+Ultrasonic ranging module
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/ranging_module.PNG" alt = "ranging module" width="300" height="200">
 
-| Jumper wires x6
+Jumper wires x6
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/wires.PNG" alt = "wires" width="300" height="200">
 
-| USB Cable
+USB Cable
+
 <img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/Cable.PNG" alt = "usb cable" width="300" height="200">
 
 # Component knowledge
