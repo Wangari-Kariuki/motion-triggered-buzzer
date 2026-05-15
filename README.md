@@ -64,26 +64,34 @@ Upload the ultrasonic_ranging.ino sketch from the folder to the Arduino IDE.
 
 Define max distance
 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.png" width="400" height="300">
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip1.PNG" width="400" height="300">
 
 
 
-Initialize  new distance, set distance  ddistance, and track 
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.png" width="400" height="300">
+Initialize  new distance, set distance  ddistance, and track
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip3.PNG" width="400" height="300">
 
 
 Set up the PIN_BUZZER to output mode 
 Change the serial port to begin at port 115200
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip2.PNG" width="400" height="300">
 
 
 Create a condition to determine the distance threshold as (SET_DISTANCE)
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip4.PNG" width="400" height="300">
 
 
 Add trigger conditions to set the buzzer on or off depending on the variation between new distance and set distance.
-<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.png" width="400" height="300">
+
+<img src = "https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/snip5.PNG" width="400" height="300">
 
 
 
 Check the code and execute it; the buzzer beeps when an object passes in front of the sensor.
+
+<video width="400" controls>
+  <source src="https://raw.githubusercontent.com/Wangari-Kariuki/motion-triggered-buzzer/main/Assets/IMG_6610.mp4" type="video/mp4">
+</video>
